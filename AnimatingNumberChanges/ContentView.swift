@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var number: Int = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            Color.clear
+                .frame(width: 50, height: 50)
+                .animatingOverlay(for: number)
+            
+            Button {
+                withAnimation {
+                    number = .random(in: 0 ..< 200)
+                }
+            } label: {
+                Text("Create random number")
+            }
         }
-        .padding()
     }
 }
 
