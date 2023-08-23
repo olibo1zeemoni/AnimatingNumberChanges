@@ -12,6 +12,7 @@
 		F59544292A948ED300124B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59544282A948ED300124B43 /* Assets.xcassets */; };
 		F595442C2A948ED300124B43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595442B2A948ED300124B43 /* Preview Assets.xcassets */; };
 		F59544332A94962E00124B43 /* AnimatableNumberModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */; };
+		F59544352A966BC900124B43 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544342A966BC900124B43 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F59544282A948ED300124B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F595442B2A948ED300124B43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableNumberModifier.swift; sourceTree = "<group>"; };
+		F59544342A966BC900124B43 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */,
 				F59544262A948ED000124B43 /* ContentView.swift */,
+				F59544342A966BC900124B43 /* ScannerView.swift */,
 				F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */,
 				F59544282A948ED300124B43 /* Assets.xcassets */,
 				F595442A2A948ED300124B43 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59544332A94962E00124B43 /* AnimatableNumberModifier.swift in Sources */,
+				F59544352A966BC900124B43 /* ScannerView.swift in Sources */,
 				F59544272A948ED000124B43 /* ContentView.swift in Sources */,
 				F59544252A948ED000124B43 /* AnimatingNumberChangesApp.swift in Sources */,
 			);
