@@ -19,7 +19,7 @@ struct AnimatableNumberModifier: AnimatableModifier {
     func body(content: Content) -> some View {
         content
             .overlay(
-                Text("\(Int(number))")
+                Text("\(number)")
             )
     }
 }
