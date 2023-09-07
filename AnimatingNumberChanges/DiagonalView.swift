@@ -14,7 +14,6 @@ struct DiagonalView: View {
     
     
     var body: some View {
-        NavigationView {
             VStack {
                 
                 Spacer()
@@ -59,7 +58,7 @@ struct DiagonalView: View {
                     .rotationEffect(Angle(degrees: 35))
                 
                 Button {
-                    
+                    print("Sign up tapped")
                 } label: {
                     Text("Sign Up")
                         .frame(maxWidth: .infinity, maxHeight: 80)
@@ -97,7 +96,7 @@ struct DiagonalView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        
+                        print("navigationBarTrailing tapped")
                     } label: {
                         Image(systemName: "plus")
                             .frame(width: 30, height: 30)
@@ -105,14 +104,13 @@ struct DiagonalView: View {
                             .foregroundColor(.blue)
                             .cornerRadius(20)
                             .rotationEffect(Angle(degrees: 30))
-                            .padding([.top, .leading], -60)
+                            .padding([.top, .leading], -10)
                         
                     }
                     
                 }
                 
             }
-        }
         
     }
 }

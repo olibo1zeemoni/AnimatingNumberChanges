@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import SwiftData
+
 
 @main
 struct AnimatingNumberChangesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PersonView()
+               // .modelContainer(for: Person.self)
         }
     }
 }

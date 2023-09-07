@@ -14,6 +14,10 @@
 		F59544332A94962E00124B43 /* AnimatableNumberModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */; };
 		F59544352A966BC900124B43 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544342A966BC900124B43 /* ScannerView.swift */; };
 		F59544372A97A75000124B43 /* DiagonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544362A97A75000124B43 /* DiagonalView.swift */; };
+		F5CC2CB52AA8925B00BE12D6 /* NewBirdIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2CB42AA8925B00BE12D6 /* NewBirdIndicator.swift */; };
+		F5CC2D2D2AA9FE6000BE12D6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2D2C2AA9FE6000BE12D6 /* Person.swift */; };
+		F5CC2D2F2AA9FEB900BE12D6 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2D2E2AA9FEB900BE12D6 /* PersonView.swift */; };
+		F5CC2D312AAA006200BE12D6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2D302AAA006200BE12D6 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableNumberModifier.swift; sourceTree = "<group>"; };
 		F59544342A966BC900124B43 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		F59544362A97A75000124B43 /* DiagonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalView.swift; sourceTree = "<group>"; };
+		F5CC2CB42AA8925B00BE12D6 /* NewBirdIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBirdIndicator.swift; sourceTree = "<group>"; };
+		F5CC2D2C2AA9FE6000BE12D6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F5CC2D2E2AA9FEB900BE12D6 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		F5CC2D302AAA006200BE12D6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 			children = (
 				F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */,
 				F59544262A948ED000124B43 /* ContentView.swift */,
+				F5CC2D2C2AA9FE6000BE12D6 /* Person.swift */,
+				F5CC2D2E2AA9FEB900BE12D6 /* PersonView.swift */,
+				F5CC2D302AAA006200BE12D6 /* DetailView.swift */,
 				F59544342A966BC900124B43 /* ScannerView.swift */,
+				F5CC2CB42AA8925B00BE12D6 /* NewBirdIndicator.swift */,
 				F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */,
 				F59544362A97A75000124B43 /* DiagonalView.swift */,
 				F59544282A948ED300124B43 /* Assets.xcassets */,
@@ -104,7 +116,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					F59544202A948ED000124B43 = {
 						CreatedOnToolsVersion = 14.3;
@@ -147,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59544332A94962E00124B43 /* AnimatableNumberModifier.swift in Sources */,
+				F5CC2D312AAA006200BE12D6 /* DetailView.swift in Sources */,
 				F59544352A966BC900124B43 /* ScannerView.swift in Sources */,
 				F59544372A97A75000124B43 /* DiagonalView.swift in Sources */,
+				F5CC2CB52AA8925B00BE12D6 /* NewBirdIndicator.swift in Sources */,
+				F5CC2D2D2AA9FE6000BE12D6 /* Person.swift in Sources */,
+				F5CC2D2F2AA9FEB900BE12D6 /* PersonView.swift in Sources */,
 				F59544272A948ED000124B43 /* ContentView.swift in Sources */,
 				F59544252A948ED000124B43 /* AnimatingNumberChangesApp.swift in Sources */,
 			);
@@ -193,6 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -207,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -253,6 +270,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -261,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
