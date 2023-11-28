@@ -9,32 +9,35 @@ import SwiftUI
 import SwiftData
 
 struct PersonView: View {
-    //@Query var persons: [Person]
-    @State var somePersons = DataStore.persons
-    
+    @Query var persons: [Person]
+    //@State var somePersons = DataStore.persons
+    //@State private var navigationPath: [Person] = []
+    @Environment(\.modelContext) private var modelContext
     
     var body: some View {
-        NavigationStack {
-            List($somePersons) { $person in
-                NavigationLink {
-                    DetailView(person: $person)
-                } label: {
-                    HStack{
-                        Text("name \(person.name)")
-                        Spacer()
-                        Text(person.age)
-                    }
-                }
-
-                
+            Text("Hello World")
+            }
+    
+    private func addItem() {
+        withAnimation {
+            let newPerson = Person(name: "", age: "")
+            modelContext.insert(newPerson)
+        }
+    }
+    
+    private func deleteItems(offsets: IndexSet) {
+        withAnimation {
+            for index in offsets {
+                modelContext.delete(persons[index])
             }
         }
     }
+    
 }
 
 #Preview {
     PersonView()
-        //.modelContainer(persistentMo)
+        .modelContainer(previewSampleData)
 }
 
 

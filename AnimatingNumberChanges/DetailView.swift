@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct DetailView: View {
-    @Binding var person: Person
+    @Environment(\.dismiss) var dismiss
+    @Bindable var person: Person
     
     var body: some View {
         ZStack {
@@ -24,11 +25,17 @@ struct DetailView: View {
                 TextField("Age", text: $person.age)
                     .textFieldStyle(.roundedBorder)
               
-                
+                Button {
+                    dismiss()
+                } label: {
+                    Label("Save", systemImage: "plus")
+                }
+
             }
             .listRowSeparatorTint(.red, edges: .all)
             .padding()
         }
+        
         .ignoresSafeArea()
 
     }
@@ -44,5 +51,7 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(person: .constant(Person(name: "Kofi Sammy", age: "age")))
+    
+    DetailView(person: Person(name: "Mark", age: "90"))
+        .modelContainer(previewSampleData)
 }

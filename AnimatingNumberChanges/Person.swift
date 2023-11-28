@@ -8,11 +8,11 @@
 import Foundation
 import SwiftData
 
-//@Model
-class Person: ObservableObject, Identifiable {
-    @Published var name: String
-    @Published var age: String
-    var id = UUID()
+@Model
+class Person {
+     var name: String
+     var age: String
+    @Relationship(.unique) var id = UUID()
     
     init(name: String, age: String) {
         self.name = name

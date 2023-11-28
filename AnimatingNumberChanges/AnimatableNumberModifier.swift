@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AnimatableNumberModifier: AnimatableModifier {
+    
     var number: Int
     //Usually a double, Int conforms to VectorArithmetic
     

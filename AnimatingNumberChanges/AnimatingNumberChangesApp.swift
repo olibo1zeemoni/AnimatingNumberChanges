@@ -13,8 +13,9 @@ import SwiftData
 struct AnimatingNumberChangesApp: App {
     var body: some Scene {
         WindowGroup {
+            ContentView()
             PersonView()
-               // .modelContainer(for: Person.self)
+                .modelContainer(for: Person.self)
         }
     }
 }
