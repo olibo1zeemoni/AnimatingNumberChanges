@@ -20,6 +20,9 @@
 		F5CC2D312AAA006200BE12D6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2D302AAA006200BE12D6 /* DetailView.swift */; };
 		F5CC2D332AAA377700BE12D6 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC2D322AAA377700BE12D6 /* PreviewSampleData.swift */; };
 		F5E344FE2AF4A34F0048B7F3 /* OlympicEventResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E344FD2AF4A34F0048B7F3 /* OlympicEventResult.swift */; };
+		F5E536C72B20D06B000849E4 /* CombineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E536C62B20D06B000849E4 /* CombineTest.swift */; };
+		F5E536C92B23035C000849E4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E536C82B23035C000849E4 /* ListView.swift */; };
+		F5E536CB2B23048B000849E4 /* DownloadWithCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E536CA2B23048B000849E4 /* DownloadWithCombineViewModel.swift */; };
 		F5F253FF2B15C6A00088932E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F253FE2B15C6A00088932E /* ContentView.swift */; };
 		F5F254012B15C6BF0088932E /* TestTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F254002B15C6BF0088932E /* TestTextField.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +42,9 @@
 		F5CC2D302AAA006200BE12D6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F5CC2D322AAA377700BE12D6 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 		F5E344FD2AF4A34F0048B7F3 /* OlympicEventResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlympicEventResult.swift; sourceTree = "<group>"; };
+		F5E536C62B20D06B000849E4 /* CombineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTest.swift; sourceTree = "<group>"; };
+		F5E536C82B23035C000849E4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F5E536CA2B23048B000849E4 /* DownloadWithCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineViewModel.swift; sourceTree = "<group>"; };
 		F5F253FE2B15C6A00088932E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5F254002B15C6BF0088932E /* TestTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */,
+				F5E536C62B20D06B000849E4 /* CombineTest.swift */,
+				F5E536CA2B23048B000849E4 /* DownloadWithCombineViewModel.swift */,
+				F5E536C82B23035C000849E4 /* ListView.swift */,
 				F59544262A948ED000124B43 /* HomeView.swift */,
 				F59544322A94962E00124B43 /* AnimatableNumberModifier.swift */,
 				F5F253FE2B15C6A00088932E /* ContentView.swift */,
@@ -171,6 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59544332A94962E00124B43 /* AnimatableNumberModifier.swift in Sources */,
+				F5E536C72B20D06B000849E4 /* CombineTest.swift in Sources */,
+				F5E536CB2B23048B000849E4 /* DownloadWithCombineViewModel.swift in Sources */,
+				F5E536C92B23035C000849E4 /* ListView.swift in Sources */,
 				F5CC2D312AAA006200BE12D6 /* DetailView.swift in Sources */,
 				F5F253FF2B15C6A00088932E /* ContentView.swift in Sources */,
 				F59544352A966BC900124B43 /* ScannerView.swift in Sources */,
