@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F552005C2B26FB36006B264D /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F552005B2B26FB36006B264D /* SubscriberBootcamp.swift */; };
 		F59544252A948ED000124B43 /* AnimatingNumberChangesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */; };
 		F59544272A948ED000124B43 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59544262A948ED000124B43 /* HomeView.swift */; };
 		F59544292A948ED300124B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59544282A948ED300124B43 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F552005B2B26FB36006B264D /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		F59544212A948ED000124B43 /* AnimatingNumberChanges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatingNumberChanges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingNumberChangesApp.swift; sourceTree = "<group>"; };
 		F59544262A948ED000124B43 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				F59544242A948ED000124B43 /* AnimatingNumberChangesApp.swift */,
 				F5E536C62B20D06B000849E4 /* CombineTest.swift */,
+				F552005B2B26FB36006B264D /* SubscriberBootcamp.swift */,
 				F5E536CA2B23048B000849E4 /* DownloadWithCombineViewModel.swift */,
 				F5E536C82B23035C000849E4 /* ListView.swift */,
 				F59544262A948ED000124B43 /* HomeView.swift */,
@@ -191,6 +194,7 @@
 				F5CC2D2D2AA9FE6000BE12D6 /* Person.swift in Sources */,
 				F5CC2D332AAA377700BE12D6 /* PreviewSampleData.swift in Sources */,
 				F5CC2D2F2AA9FEB900BE12D6 /* PersonView.swift in Sources */,
+				F552005C2B26FB36006B264D /* SubscriberBootcamp.swift in Sources */,
 				F59544272A948ED000124B43 /* HomeView.swift in Sources */,
 				F5E344FE2AF4A34F0048B7F3 /* OlympicEventResult.swift in Sources */,
 				F59544252A948ED000124B43 /* AnimatingNumberChangesApp.swift in Sources */,
